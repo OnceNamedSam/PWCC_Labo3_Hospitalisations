@@ -1,0 +1,31 @@
+{
+    "patients": [
+        {"dossier":1, "nom": "Léger", "prénom": "Émile", "naissance": "26 mars 1917", "sexe":"M"}, 
+        {"dossier":2, "nom": "Bernard", "prénom": "Marie", "naissance": "3 février 1946", "sexe":"F"},
+        {"dossier":3, "nom": "Chartrand", "prénom": "Guy", "naissance": "5 avril 1959", "sexe":"M"},
+        {"dossier":4, "nom": "Côté", "prénom": "André", "naissance": "2 septembre 1978", "sexe":"M"},
+        {"dossier":5, "nom": "Lavoie", "prénom": "Carole", "naissance": "4 novembre 1973", "sexe":"F"},
+        {"dossier":6, "nom": "Martin", "prénom": "Diane", "naissance": "2 décembre 1965", "sexe":"F"},
+        {"dossier":7, "nom": "Lacroix", "prénom": "Pauline", "naissance": "25 janvier 1956", "sexe":"F"},
+        {"dossier":8, "nom": "St-Jean", "prénom": "Arthur", "naissance": "7 octobre 1912", "sexe":"M"},
+        {"dossier":9, "nom": "Béchard", "prénom": "Marc", "naissance": "8 août 1980", "sexe":"M"},
+        {"dossier":10, "nom": "Chartrand", "prénom": "Mario", "naissance": "23 juillet 1947", "sexe":"M"}
+
+    ],
+    "etablissements": [ 
+        {"code": 1234, "dossier": 5, "admission": "14-août-00", "sortie": "14-août-01", "specialité": "médecine"},
+        {"code": 1234, "dossier": 10, "admission": "12-déc.-92", "sortie": "12-déc.-92", "specialité": "chirurgie"},
+        {"code": 2346, "dossier": 8, "admission": "03-mars-03", "sortie": "05-mars-03", "specialité": "médecine"},
+        {"code": 2346, "dossier": 1, "admission": "11-nov.-97", "sortie": "12-nov.-97", "specialité": "orthopédie"},
+        {"code": 2346, "dossier": 3, "admission": "12-avr.-95", "sortie": "30-avr.-95", "specialité": "médecine"},
+        {"code": 3980, "dossier": 5, "admission": "14-févr.-00", "sortie": "14-mars-00", "specialité": "médecine"},
+        {"code": 3980, "dossier": 5, "admission": "01-janv.-01", "sortie": "01-févr.-01", "specialité": "médecine"},
+        {"code": 3980, "dossier": 9, "admission": "03-avr.95", "sortie": "08-avr.-95", "specialité": "orthopédie"},
+        {"code": 3980, "dossier": 7, "admission": "27-nov.-99", "sortie": "04-déc.-99", "specialité": "chirurgie"},
+        {"code": 3980, "dossier": 10, "admission": "28-avr.-97", "sortie": "05-mai-97", "specialité": "chirurgie"},
+        {"code": 4177, "dossier": 3, "admission": "03-août-01", "sortie": "05-déc.-01", "specialité": "médecine"},
+        {"code": 4177, "dossier": 3, "admission": "02-févr.-02", "sortie": "23-févr.-02", "specialité": "orthopédie"},
+        {"code": 7306, "dossier": 2, "admission": "23-mai-98", "sortie": "27-mai-98", "specialité": "orthopédie"}
+
+    ]
+}

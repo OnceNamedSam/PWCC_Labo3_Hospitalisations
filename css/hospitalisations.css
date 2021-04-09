@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 18px 8%;
+    background-color: #24252A;
+}
+
+h1, #logo {
+    display:inline-block;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color:#edf0f1;
+    vertical-align:text-bottom;
+    text-align: left;
+}
+
+li {
+    display:block;
+    width: 150px;
+}
+
+#entete {
+    margin-right:auto;
+} 
+
+li, .link-menu, #bouton {
+   font-family: "Montserrat", sans-serif;
+   font-weight: 500; 
+   font-size: 11px;
+   color: #edf0f1;
+   text-decoration: none;
+}
+
+.icones, #logo {
+    fill: #edf0f1;
+}
+
+#logo {
+    width: 44px;
+    height: 44px;
+    margin-right: auto;
+}
+
+.choix-menu {
+    list-style: none;
+}
+
+.icones {
+    list-style: none;
+    width: 30px;
+    height: 30px;
+}
+
+.choix-menu li {
+    display: inline-block; 
+    padding: 0px 14px;
+}
+
+svg, .link-menu {
+    display: block;
+    transition: all 0.2s ease 0s;
+}
+
+li:hover>svg, li:hover>.link-menu {
+    cursor: pointer;
+    color: #0088a9;
+    fill: #0088a9;
+}
+
+#bouton {
+    margin-left: 28px;
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+#bouton:hover {
+    background-color: rgba(0, 136, 169, 0.6);
+}
+
+#affichage {
+    position: relative;
+    min-height: 800px;
+    overflow: hidden;
+}
+
+table {
+    width:max-content;
+    position: absolute;
+}
+
+table, th, td {
+    border: 1px solid rgb(14, 79, 95);
+    text-align: left;
+    padding: 8px;
+    border-collapse: collapse;
+}
+
+th, td {
+    width: 125px;
+}
+
+th {
+    font-size:.9em;
+    color:white;
+    background-color: rgba(0, 136, 169, 1) ;
+}
+
+table tr:nth-child(odd) td{
+    background-color:#91ddf03f;
+}
+
+td {
+    font-size: .75em;
+}
+
+table, #select-par-patients {
+    margin:auto;
+    margin-top: 50px;
+    font-family: "Montserrat", sans-serif;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    opacity: 0;
+    transform: scale(0.5);
+    transition: all .2s ease-out;
+}
+
+#select-par-patients {
+    width: 240px;
+    padding: 4px;
+    margin-left:75%;
+    margin-right: 10%;
+}
+
+
+#status {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: .7em;
+    font-style: italic;
+}
+
+#status-titre {
+    font-weight: 100;
+    text-align: center;
+    justify-content: center;
+    margin:auto;
+    color:#edf0f1;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    justify-content: center;
+    width:100px;
+    padding: 9px 25px;
+    border-radius: 50px;
+}
+
+#status-text {
+    margin-top: 10px;
+}
